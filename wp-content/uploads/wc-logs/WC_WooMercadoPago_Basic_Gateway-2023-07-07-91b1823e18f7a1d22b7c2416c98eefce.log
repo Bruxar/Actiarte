@@ -1,0 +1,542 @@
+07-07-2023 @ 16:54:02 - [process_payment]: customer being redirected to Mercado Pago.
+07-07-2023 @ 16:54:02 - [get_transaction]: Preference: {
+    "additional_info": null,
+    "auto_return": "approved",
+    "back_urls": {
+        "failure": "https:\/\/proactiarte.lumonidy.studio\/carrito\/?cancel_order=true&order=wc_order_sBJnhm2S95dHf&order_id=737&redirect&_wpnonce=0756b06c65",
+        "pending": "https:\/\/proactiarte.lumonidy.studio\/checkout\/order-received\/737\/?key=wc_order_sBJnhm2S95dHf",
+        "success": "https:\/\/proactiarte.lumonidy.studio\/checkout\/order-received\/737\/?key=wc_order_sBJnhm2S95dHf"
+    },
+    "binary_mode": false,
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-737",
+    "items": [
+        {
+            "category_id": "others",
+            "currency_id": "CLP",
+            "description": "Taza-perfecta-para-salir-a-acampar-a-la-naturaleza",
+            "id": 699,
+            "picture_url": "https:\/\/proactiarte.lumonidy.studio\/wp-content\/uploads\/2023\/06\/forest-4656856_1920.jpg",
+            "quantity": 1,
+            "title": "Taza de camping estampada x 1",
+            "unit_price": 10000
+        }
+    ],
+    "marketplace": null,
+    "marketplace_fee": null,
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "7.6.1",
+        "module_version": "6.9.2",
+        "php_version": "8.0.28",
+        "site_id": "mlc",
+        "sponsor_id": 208690789,
+        "collector": "376665647",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "12",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_magna": "no",
+            "ex_payments_presto": "no",
+            "ex_payments_diners": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_redcompra": "yes",
+            "ex_payments_debvisa": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/proactiarte.lumonidy.studio",
+        "billing_address": {
+            "zip_code": "6000000",
+            "street_name": "av.mexico",
+            "city_name": "santiago",
+            "state_name": "CL-RM",
+            "country_name": "CL"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "larancibia@utem.cl",
+            "user_registration_date": "2023-04-27T03:00:34.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "notification_url": "https:\/\/proactiarte.lumonidy.studio\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "payer": {
+        "address": {
+            "street_name": "av.mexico \/ santiago CL-RM CL",
+            "street_number": null,
+            "zip_code": "6000000"
+        },
+        "date_created": null,
+        "email": "lucasmartinarancibialujan@gmail.com",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "name": "lucas",
+        "phone": {
+            "area_code": null,
+            "number": "0998779326"
+        },
+        "surname": "arancibia lujan"
+    },
+    "payment_methods": {
+        "default_installments": null,
+        "default_payment_method_id": null,
+        "excluded_payment_methods": [
+            {
+                "id": "magna"
+            },
+            {
+                "id": "presto"
+            },
+            {
+                "id": "diners"
+            }
+        ],
+        "installments": 12
+    },
+    "purpose": null,
+    "shipments": {
+        "cost": null,
+        "default_shipping_method": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null,
+        "receiver_address": {
+            "apartment": "",
+            "city_name": "",
+            "floor": null,
+            "state_name": "",
+            "street_name": "    ",
+            "street_number": null,
+            "zip_code": ""
+        }
+    },
+    "sponsor_id": null,
+    "statement_descriptor": "Actiarte"
+}
+07-07-2023 @ 16:54:03 - [create_preference]: Created Preference: {
+    "id": "376665647-8d09ebcc-c614-4c0e-bcc2-e4b6249a3ddd",
+    "collector_id": 376665647,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "699",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_860169-MLC70347447283_072023-F.jpg",
+            "title": "Taza de camping estampada x 1",
+            "description": "Taza-perfecta-para-salir-a-acampar-a-la-naturaleza",
+            "category_id": "others",
+            "currency_id": "CLP",
+            "quantity": 1,
+            "unit_price": 10000
+        }
+    ],
+    "payer": {
+        "name": "lucas",
+        "surname": "arancibia lujan",
+        "email": "lucasmartinarancibialujan@gmail.com",
+        "date_created": null,
+        "phone": {
+            "area_code": "",
+            "number": "0998779326"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "av.mexico  santiago CL-RM CL",
+            "street_number": null,
+            "zip_code": "6000000"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/proactiarte.lumonidy.studio\/checkout\/order-received\/737\/?key=wc_order_sBJnhm2S95dHf",
+        "pending": "https:\/\/proactiarte.lumonidy.studio\/checkout\/order-received\/737\/?key=wc_order_sBJnhm2S95dHf",
+        "failure": "https:\/\/proactiarte.lumonidy.studio\/carrito\/?cancel_order=true&order=wc_order_sBJnhm2S95dHf&order_id=737&redirect&_wpnonce=0756b06c65"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "excluded_payment_methods": [
+            {
+                "id": "magna"
+            },
+            {
+                "id": "presto"
+            },
+            {
+                "id": "diners"
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 12,
+        "default_installments": null
+    },
+    "client_id": "6118785129316016",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "street_number": null,
+            "floor": "",
+            "apartment": ""
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Actiarte",
+    "external_reference": "WC-737",
+    "additional_info": "",
+    "expires": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "date_created": "2023-07-07T12:54:02.951-04:00",
+    "init_point": "https:\/\/www.mercadopago.cl\/checkout\/v1\/redirect?pref_id=376665647-8d09ebcc-c614-4c0e-bcc2-e4b6249a3ddd",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.cl\/checkout\/v1\/redirect?pref_id=376665647-8d09ebcc-c614-4c0e-bcc2-e4b6249a3ddd",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "commission_checkbox": "no",
+            "currency_conversion": "yes",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "no",
+            "ex_payments_magna": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_presto": "no",
+            "ex_payments_redcompra": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "12",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "santiago",
+            "country_name": "CL",
+            "state_name": "CL-RM",
+            "street_name": "av.mexico",
+            "zip_code": "6000000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "376665647",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.2",
+        "original_notification_url": "https:\/\/proactiarte.lumonidy.studio\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.0.28",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "7.6.1",
+        "seller_website": "http:\/\/proactiarte.lumonidy.studio",
+        "site_id": "mlc",
+        "sponsor_id": 208690789,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "larancibia@utem.cl",
+            "user_registration_date": "2023-04-27T03:00:34.000+00:00"
+        }
+    }
+}
+07-07-2023 @ 17:04:36 - [process_payment]: customer being redirected to Mercado Pago.
+07-07-2023 @ 17:04:36 - [get_transaction]: Preference: {
+    "additional_info": null,
+    "auto_return": "approved",
+    "back_urls": {
+        "failure": "https:\/\/proactiarte.lumonidy.studio\/carrito\/?cancel_order=true&order=wc_order_sBJnhm2S95dHf&order_id=737&redirect&_wpnonce=5fc7b5354a",
+        "pending": "https:\/\/proactiarte.lumonidy.studio\/checkout\/order-received\/737\/?key=wc_order_sBJnhm2S95dHf",
+        "success": "https:\/\/proactiarte.lumonidy.studio\/checkout\/order-received\/737\/?key=wc_order_sBJnhm2S95dHf"
+    },
+    "binary_mode": false,
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-737",
+    "items": [
+        {
+            "category_id": "others",
+            "currency_id": "CLP",
+            "description": "Taza-perfecta-para-salir-a-acampar-a-la-naturaleza",
+            "id": 699,
+            "picture_url": "https:\/\/proactiarte.lumonidy.studio\/wp-content\/uploads\/2023\/06\/forest-4656856_1920.jpg",
+            "quantity": 1,
+            "title": "Taza de camping estampada x 1",
+            "unit_price": 10000
+        }
+    ],
+    "marketplace": null,
+    "marketplace_fee": null,
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "7.6.1",
+        "module_version": "6.9.2",
+        "php_version": "8.0.28",
+        "site_id": "mlc",
+        "sponsor_id": 208690789,
+        "collector": "376665647",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "12",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_amex": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_magna": "no",
+            "ex_payments_presto": "no",
+            "ex_payments_diners": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_redcompra": "yes",
+            "ex_payments_debvisa": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no"
+        },
+        "custom_settings": [],
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "http:\/\/proactiarte.lumonidy.studio",
+        "billing_address": {
+            "zip_code": "6000000",
+            "street_name": "av.mexico",
+            "city_name": "santiago",
+            "state_name": "CL-RM",
+            "country_name": "CL"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "larancibia@utem.cl",
+            "user_registration_date": "2023-04-27T03:00:34.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "notification_url": "https:\/\/proactiarte.lumonidy.studio\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "payer": {
+        "address": {
+            "street_name": "av.mexico \/ santiago CL-RM CL",
+            "street_number": null,
+            "zip_code": "6000000"
+        },
+        "date_created": null,
+        "email": "lucasmartinarancibialujan@gmail.com",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "name": "lucas",
+        "phone": {
+            "area_code": null,
+            "number": "0998779326"
+        },
+        "surname": "arancibia lujan"
+    },
+    "payment_methods": {
+        "default_installments": null,
+        "default_payment_method_id": null,
+        "excluded_payment_methods": [
+            {
+                "id": "magna"
+            },
+            {
+                "id": "presto"
+            },
+            {
+                "id": "diners"
+            }
+        ],
+        "installments": 12
+    },
+    "purpose": null,
+    "shipments": {
+        "cost": null,
+        "default_shipping_method": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null,
+        "receiver_address": {
+            "apartment": "",
+            "city_name": "",
+            "floor": null,
+            "state_name": "",
+            "street_name": "    ",
+            "street_number": null,
+            "zip_code": ""
+        }
+    },
+    "sponsor_id": null,
+    "statement_descriptor": "Actiarte"
+}
+07-07-2023 @ 17:04:36 - [create_preference]: Created Preference: {
+    "id": "376665647-1f4723bb-2412-456b-9007-eaa51b9e041b",
+    "collector_id": 376665647,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "699",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_860169-MLC70347447283_072023-F.jpg",
+            "title": "Taza de camping estampada x 1",
+            "description": "Taza-perfecta-para-salir-a-acampar-a-la-naturaleza",
+            "category_id": "others",
+            "currency_id": "CLP",
+            "quantity": 1,
+            "unit_price": 10000
+        }
+    ],
+    "payer": {
+        "name": "lucas",
+        "surname": "arancibia lujan",
+        "email": "lucasmartinarancibialujan@gmail.com",
+        "date_created": null,
+        "phone": {
+            "area_code": "",
+            "number": "0998779326"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "av.mexico  santiago CL-RM CL",
+            "street_number": null,
+            "zip_code": "6000000"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/proactiarte.lumonidy.studio\/checkout\/order-received\/737\/?key=wc_order_sBJnhm2S95dHf",
+        "pending": "https:\/\/proactiarte.lumonidy.studio\/checkout\/order-received\/737\/?key=wc_order_sBJnhm2S95dHf",
+        "failure": "https:\/\/proactiarte.lumonidy.studio\/carrito\/?cancel_order=true&order=wc_order_sBJnhm2S95dHf&order_id=737&redirect&_wpnonce=5fc7b5354a"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "excluded_payment_methods": [
+            {
+                "id": "magna"
+            },
+            {
+                "id": "presto"
+            },
+            {
+                "id": "diners"
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 12,
+        "default_installments": null
+    },
+    "client_id": "6118785129316016",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "street_number": null,
+            "floor": "",
+            "apartment": ""
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "Actiarte",
+    "external_reference": "WC-737",
+    "additional_info": "",
+    "expires": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "date_created": "2023-07-07T13:04:36.501-04:00",
+    "init_point": "https:\/\/www.mercadopago.cl\/checkout\/v1\/redirect?pref_id=376665647-1f4723bb-2412-456b-9007-eaa51b9e041b",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.cl\/checkout\/v1\/redirect?pref_id=376665647-1f4723bb-2412-456b-9007-eaa51b9e041b",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "commission_checkbox": "no",
+            "currency_conversion": "yes",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_debmaster": "yes",
+            "ex_payments_debvisa": "yes",
+            "ex_payments_diners": "no",
+            "ex_payments_magna": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_presto": "no",
+            "ex_payments_redcompra": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "12",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "santiago",
+            "country_name": "CL",
+            "state_name": "CL-RM",
+            "street_name": "av.mexico",
+            "zip_code": "6000000"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "376665647",
+        "credits_settings": [],
+        "custom_settings": [],
+        "details": "",
+        "module_version": "6.9.2",
+        "original_notification_url": "https:\/\/proactiarte.lumonidy.studio\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.0.28",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "7.6.1",
+        "seller_website": "http:\/\/proactiarte.lumonidy.studio",
+        "site_id": "mlc",
+        "sponsor_id": 208690789,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "larancibia@utem.cl",
+            "user_registration_date": "2023-04-27T03:00:34.000+00:00"
+        }
+    }
+}
